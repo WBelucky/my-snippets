@@ -1,11 +1,15 @@
 {
-
+  "name": "wb-snippets",
   "version": "1.0.0",
   "description": "snippets-management-tool",
   "main": "src/index.ts",
   "private": true,
   "bin": {
     "wb-snip": "./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wbelucky/wb-snippets.git"
   },
   "scripts": {
     "start": "ts-node src/index.ts",

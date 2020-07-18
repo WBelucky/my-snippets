@@ -1,0 +1,28 @@
+{
+
+  "version": "1.0.0",
+  "description": "snippets-management-tool",
+  "main": "src/index.ts",
+  "private": true,
+  "bin": {
+    "wb-snip": "./dist/index.js"
+  },
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^5.1.0",
+    "json5": "^2.1.3"
+  },
+  "devDependencies": {
+    "@types/json5": "0.0.30",
+    "ts-loader": "^8.0.1",
+    "typescript": "^3.9.7",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
